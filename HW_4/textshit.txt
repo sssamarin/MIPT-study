@@ -1,0 +1,1 @@
+scp -r -i /home/sslinux/.ssh/mmlect studhedp01@calc.cod.phystech.edu:/home/common/studhedp01/HW_4/* /home/sslinux/JIHT_sem/
