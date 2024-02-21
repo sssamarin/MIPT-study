@@ -1,0 +1,8 @@
+cd C:\Users\Serge\Documents\VSCode_projects\JIHT\HW_PT_equilibrium
+julia
+]
+activate .
+add ForwardDiff (опц?)
+выходим с джулии
+в этой же папке
+julia --project=. example.jl > data_.txt
