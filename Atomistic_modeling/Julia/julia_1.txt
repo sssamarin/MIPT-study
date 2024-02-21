@@ -1,8 +1,0 @@
-using Random
-
-maze_width = 50
-maze_height = 10
-
-for i in 1:maze_height
-    println(join(rand(1:4) > 2 ? "+" : " " for i in 1:maze_width))
-end
