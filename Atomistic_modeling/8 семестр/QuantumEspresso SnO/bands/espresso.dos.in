@@ -1,0 +1,69 @@
+&CONTROL
+    calculation = "nscf"
+    max_seconds = " 8,64000e+04"
+    outdir      = "./"
+    prefix      = "rutile"
+    pseudo_dir  = "C:\Users\Serge\.burai\.pseudopot"
+/
+
+&SYSTEM
+    a           = " 4,56092e+00"
+    c           = " 3,05999e+00"
+    degauss     = " 1,00000e-02"
+    ecutrho     = " 1,20000e+03"
+    ecutwfc     = " 1,20000e+02"
+    ibrav       = 6
+    nat         = 2
+    nbnd        = 40
+    ntyp        = 2
+    occupations = "smearing"
+    smearing    = "gaussian"
+    space_group = 136
+/
+
+&ELECTRONS
+    conv_thr         = " 1,00000e-06"
+    electron_maxstep = 200
+    mixing_beta      =  7,00000e-01
+    startingpot      = "atomic"
+    startingwfc      = "atomic+random"
+/
+
+&DOS
+    degauss = " 1,00000e-02"
+    deltae  = " 1,00000e-02"
+    emax    = " 5,00000e+01"
+    emin    = "-5,00000e+01"
+    ngauss  = 0
+/
+
+&PROJWFC
+    degauss = " 1,00000e-02"
+    deltae  = " 1,00000e-02"
+    emax    = " 5,00000e+01"
+    emin    = "-5,00000e+01"
+    ngauss  = 0
+/
+
+K_POINTS {crystal_b}
+10
+  0,500000   0,500000   0,500000  50
+  0,500000   0,500000   0,000000  50
+  0,000000   0,000000   0,000000  50
+  0,500000   0,000000   0,000000  50
+  0,500000   0,500000   0,000000  50
+  0,000000   0,000000   0,000000  50
+  0,000000   0,000000   0,500000  50
+  0,500000   0,000000   0,500000  50
+  0,500000   0,500000   0,500000  50
+  0,000000   0,000000   0,500000  50
+
+ATOMIC_SPECIES
+Sn    118,71000  Sn.pw-mt_fhi.UPF
+O      16,00000  O.pw-mt_fhi.UPF
+
+ATOMIC_POSITIONS {alat}
+Sn      0,000000   0,000000   0,000000
+O       0,305708   0,305708   0,000000
+
+

@@ -1,0 +1,21 @@
+&CONTROL
+    pseudo_dir = "C:\Users\Serge\.burai\.pseudopot"
+/
+
+&SYSTEM
+    a     = " 4,56092e+00"
+    c     = " 3,05999e+00"
+    ibrav = 6
+    nat   = 2
+    ntyp  = 2
+/
+
+ATOMIC_SPECIES
+Sn    118,71000  Sn.pw-mt_fhi.UPF
+O      16,00000  O.pw-mt_fhi.UPF
+
+ATOMIC_POSITIONS {alat}
+Sn      0,000000   0,000000   0,000000
+O       0,305708   0,305708   0,000000
+
+

@@ -1,0 +1,24 @@
+стырить с тмп архив dataFeVC.zip
+разархивировать unzip dataFeVC.zip
+в этой директории в вфайлк dpdata_create добавить #!/bin/bash 
+и поменять сурс на свой путь к файлу активэйт 
+source /home/common/studhedp21/miniconda3/bin/activate dpgen_env
+
+вот этой балой запустить срипт на титане, поменяв путь на свой 
+sbatch -n 1 -p titan_X --wrap="./home/common/studhedp21/deepmd_sem/dataFeVC/dpdata_create.sh"
+должны создаться директории трэйн и тест и возможно олл
+
+в тмп стащить файл 
+run_train_dp2.sh
+подправить его (крч скину)
+через сбатч запускаем скрипт, рез-м его работы будет нейросеть
+
+заходим на github dpdata / examples / lmp там какой-о пример. Там в срипте нужно указать свою модель frozen что-то так
+poscar -> lammps data file через ovito  
+
+мы просто стрельнули POSCAR.lmp из /dataFeVC/0_Fe0.823V0.070C0.106
+короче из экзампла мы взяли in.lammps, накопировали в него строк из lmp_relax.in
+скопировали обученную модель в ту же директорию
+запустили с помощью sbatch
+
+
