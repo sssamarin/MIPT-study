@@ -1,0 +1,40 @@
+# LJ potential simulation and RDF calculation
+
+# Initialize simulation
+clear
+units           lj
+dimension       3
+boundary        p p p
+atom_style      atomic
+
+lattice         sc 1.1
+region          sim_box block 0 20 0 20 0 20
+create_box      1 sim_box
+create_atoms    1 box
+
+# Define LJ potential
+pair_style      lj/cut 2.5
+pair_coeff      1 1 1.0 1.0 2.5
+mass            1 1.0
+
+# Define temperature and timestep
+velocity        all create 6.0 1234567 mom yes rot yes
+
+timestep        0.005
+comm_modify     mode single cutoff 6.0 vel yes
+
+# Run molecular dynamics simulation
+fix             NPT all npt temp 1.0 1.0 $(2000*dt) iso 0.0 0.0 $(2000*dt)
+thermo          1000
+run             5000
+
+# Output trajectory for RDF calculation
+# dump            1 all xyz 1000 dump.xyz
+
+unfix           NPT
+fix             NVT all nvt temp 1.0 1.0 $(2000*dt)
+reset_timestep  0
+# Compute RDF using LAMMPS compute rdf command
+compute         rdf all rdf 500 1 1 cutoff 5.0
+fix             1 all ave/time 10 5000 50000 c_rdf[*] file rdf.dat mode vector
+run             50000

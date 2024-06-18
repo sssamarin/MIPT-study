@@ -1,0 +1,23 @@
+# LJ potential forces calculation
+
+# Initialize simulation
+clear
+units           metal
+dimension       3
+boundary        p p p
+atom_style      atomic
+
+read_data       input.data
+
+# Define LJ potential
+pair_style      lj/cut ${RCUT}
+pair_coeff      1 1 ${EPS} ${SIGMA} ${RCUT}
+mass            1 207.2
+
+fix             NVE all nve
+timestep        1e-20
+
+dump            f_dump all custom 1 final.dump.custom x y z fx fy fz
+dump_modify     f_dump sort id
+
+run             0

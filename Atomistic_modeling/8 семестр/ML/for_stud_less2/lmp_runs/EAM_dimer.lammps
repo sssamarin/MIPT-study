@@ -1,0 +1,41 @@
+variable separation_distance equal 1.8
+
+variable        TEMP equal 1000.0
+
+clear
+units           metal
+dimension       3
+boundary        p p p
+atom_style      atomic
+
+lattice         sc 1.0
+region          sim_box block 0 20 0 20 0 20
+create_box      1 sim_box
+# create_atoms    1 box
+
+include         in.pot
+
+timestep 1e-20
+
+print "R pe" file Lead_dimer_data/pe_r_dimer.txt
+
+# Loop over separation distances
+label loop
+variable sep_distance loop 50
+print "Separation Distance: ${separation_distance}"
+delete_atoms    group all
+create_atoms    1 single 0 0 0
+create_atoms    1 single 0 0 ${separation_distance}
+fix NVE all nve
+
+variable pe equal pe
+minimize 1.0 1.0 0 0
+
+# Run simulation
+run 1
+unfix NVE
+print "${separation_distance} ${pe}" append Lead_dimer_data/pe_r_dimer.txt
+
+variable separation_distance equal ${separation_distance}+0.1
+next    sep_distance
+jump    EAM_dimer.lammps loop

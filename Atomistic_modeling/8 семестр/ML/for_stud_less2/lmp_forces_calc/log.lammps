@@ -1,0 +1,80 @@
+LAMMPS (21 Nov 2023)
+OMP_NUM_THREADS environment is not set. Defaulting to 1 thread. (src/comm.cpp:98)
+  using 1 OpenMP thread(s) per MPI task
+# LJ potential forces calculation
+
+# Initialize simulation
+clear
+OMP_NUM_THREADS environment is not set. Defaulting to 1 thread. (src/comm.cpp:98)
+  using 1 OpenMP thread(s) per MPI task
+units           metal
+dimension       3
+boundary        p p p
+atom_style      atomic
+
+read_data       input.data
+Reading data file ...
+  orthogonal box = (4.2487739 4.2487739 4.2487739) to (21.251226 21.251226 21.251226)
+  1 by 1 by 1 MPI processor grid
+  reading atoms ...
+  125 atoms
+  read_data CPU = 0.001 seconds
+
+# Define LJ potential
+pair_style      lj/cut ${RCUT}
+pair_style      lj/cut 6.0
+pair_coeff      1 1 ${EPS} ${SIGMA} ${RCUT}
+pair_coeff      1 1 0.11999999999999834 ${SIGMA} ${RCUT}
+pair_coeff      1 1 0.11999999999999834 2.940000000000012 ${RCUT}
+pair_coeff      1 1 0.11999999999999834 2.940000000000012 6.0
+mass            1 207.2
+
+fix             NVE all nve
+timestep        1e-20
+
+dump            f_dump all custom 1 final.dump.custom x y z fx fy fz
+dump_modify     f_dump sort id
+
+run             0
+Generated 0 of 0 mixed pair_coeff terms from geometric mixing rule
+Neighbor list info ...
+  update: every = 1 steps, delay = 0 steps, check = yes
+  max neighbors/atom: 2000, page size: 100000
+  master list distance cutoff = 8
+  ghost atom cutoff = 8
+  binsize = 4, bins = 5 5 5
+  1 neighbor lists, perpetual/occasional/extra = 1 0 0
+  (1) pair lj/cut, perpetual
+      attributes: half, newton on
+      pair build: half/bin/atomonly/newton
+      stencil: half/bin/3d
+      bin: standard
+Per MPI rank memory allocation (min/avg/max) = 3.082 | 3.082 | 3.082 Mbytes
+   Step          Temp          E_pair         E_mol          TotEng         Press     
+         0   0             -60.075193      0             -60.075193     -5898.9349    
+Loop time of 8e-07 on 1 procs for 0 steps with 125 atoms
+
+625.0% CPU use with 1 MPI tasks x 1 OpenMP threads
+
+MPI task timing breakdown:
+Section |  min time  |  avg time  |  max time  |%varavg| %total
+---------------------------------------------------------------
+Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Neigh   | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Output  | 0          | 0          | 0          |   0.0 |  0.00
+Modify  | 0          | 0          | 0          |   0.0 |  0.00
+Other   |            | 8e-07      |            |       |100.00
+
+Nlocal:            125 ave         125 max         125 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Nghost:            795 ave         795 max         795 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Neighs:           3340 ave        3340 max        3340 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 3340
+Ave neighs/atom = 26.72
+Neighbor list builds = 0
+Dangerous builds = 0
+Total wall time: 0:00:00

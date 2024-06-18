@@ -1,0 +1,1000 @@
+  563  ssh -N -f -L localhost:1609:localhost:1610  s.samarin@10.30.16.167
+  564  exit
+  565  ssh -N -f -L localhost:1609:localhost:1610  s.samarin@10.30.16.167
+  566  cd JIHT_sem/
+  567  cd ..
+  568  cd JIHT_sem/
+  569  cd ../
+  570  cd JIHT_sem/
+  571  cd ../pwd
+  572  cd JIHT_sem/
+  573  cd ../;pwd
+  574  ssh s.samarin@10.30.16.167
+  575  ls
+  576  ..
+  577  cd ..
+  578  ls
+  579  cd ..
+  580  ls
+  581  vim init
+  582  cd home/sslinux/
+  583  ls
+  584  vim .bashrc
+  585  ..
+  586  cd Skoltech/
+  587  ..
+  588  ls
+  589  cd Skoltech/
+  590  ..
+  591  netstat -tulpn
+  592  ssh s.samarin@10.30.16.167
+  593  c
+  594  ssh s.samarin@10.30.16.167
+  595  ssh -N -f -L localhost:1609:localhost:1610  s.samarin@10.30.16.167
+  596  ssh s.samarin@10.30.16.167
+  597  ssh -N -f -L localhost:1609:localhost:1610  s.samarin@10.30.16.167
+  598  ssh -i /home/sslinux/.ssh/mmlect studhedp01@calc.cod.phystech.edu
+  599  ssh s.samarin@10.30.16.167
+  600  ssh -N -f -L localhost:1609:localhost:1610  s.samarin@10.30.16.167
+  601  netstat -tulpn
+  602  kill -9 49
+  603  ssh -N -f -L localhost:1609:localhost:1610  s.samarin@10.30.16.167
+  604  cd JIHT_sem/gnuplot/
+  605  history
+  606  scp -i /home/sslinux/.ssh/mmlect -r studhedp01@calc.cod.phystech.edu:/home/common/studhedp01/molsimmipt-wip-practical-4_NVT_MD/practical/4_NVT_MD/* /home/sslinux/JIHT_sem/gnuplot/
+  607  gnuplot
+  608  scp -i /home/sslinux/.ssh/mmlect -r studhedp01@calc.cod.phystech.edu:/home/common/studhedp01/molsimmipt-wip-practical-4_NVT_MD/practical/4_NVT_MD/berendsen.txt /home/sslinux/JIHT_sem/gnuplot/
+  609  scp -i /home/sslinux/.ssh/mmlect -r studhedp01@calc.cod.phystech.edu:/home/common/studhedp01/molsimmipt-wip-practical-4_NVT_MD/practical/4_NVT_MD/langevin.txt /home/sslinux/JIHT_sem/gnuplot/
+  610  scp -i /home/sslinux/.ssh/mmlect -r studhedp01@calc.cod.phystech.edu:/home/common/studhedp01/molsimmipt-wip-practical-4_NVT_MD/practical/4_NVT_MD/mcnvt.txt /home/sslinux/JIHT_sem/gnuplot/
+  611  scp -i /home/sslinux/.ssh/mmlect -r studhedp01@calc.cod.phystech.edu:/home/common/studhedp01/molsimmipt-wip-practical-4_NVT_MD/practical/4_NVT_MD/mdnvt.txt /home/sslinux/JIHT_sem/gnuplot/
+  612  python -m atomicasoft.sched.configure
+  613  ssh s.samarin@10.30.16.167
+  614  ssh -N -f -L localhost:1609:localhost:1610  s.samarin@10.30.16.167
+  615  ssh s.samarin@10.30.16.167
+  616  ssh s.samarin@10.30.16.167
+  617  ssh -N -f -L localhost:1609:localhost:1610  s.samarin@10.30.16.167
+  618  netstat -tulpn
+  619  kill -9 92
+  620  ssh -N -f -L localhost:1609:localhost:1610  s.samarin@10.30.16.167
+  621  ssh s.samarin@10.30.16.167
+  622  netstat -tulpn
+  623  kill -9 125
+  624  ssh s.samarin@10.30.16.167
+  625  ssh -N -f -L localhost:1609:localhost:1610  s.samarin@10.30.16.167
+  626  python
+  627  python3
+  628  cd JIHT_sem/
+  629  vim plot-energy.sh 
+  630  ls
+  631  mc
+  632  ssh -i /home/sslinux/.ssh/mmlect studhedp01@calc.cod.phystech.edu
+  633  cd JIHT_sem/gnuplot/
+  634  ls
+  635  ..
+  636  ls
+  637  vim plot-energy.sh 
+  638  ./plot-pressure1.sh log.eam.4.95 log.morse.5.0 log.morse.5.5 log.morse.6.0 log.morse.6.5 log.morse.7.0
+  639  ./plot-pressure.sh log.eam.4.95 log.morse.5.0 log.morse.5.5 log.morse.6.0 log.morse.6.5 log.morse.7.0
+  640  ./plot-pressure.sh log.morse.5.0 log.morse.5.5 log.morse.6.0 log.morse.6.5 log.morse.7.0
+  641  vim plot-energy.sh 
+  642  vim plot-pressure_danil.sh 
+  643  vim plot-energy.sh 
+  644  vim plot-pressure.sh 
+  645  ./plot-pressure.sh log.eam.4.95 log.morse.5.0 log.morse.5.5 log.morse.6.0 log.morse.6.5 log.morse.7.0
+  646  vim plot-pressure.sh 
+  647  ./plot-pressure.sh log.eam.4.95 log.morse.5.0 log.morse.5.5 log.morse.6.0 log.morse.6.5 log.morse.7.0
+  648  ./plot-energy.sh log.eam.4.95 log.morse.5.0 log.morse.5.5 log.morse.6.0 log.morse.6.5 log.morse.7.0
+  649  cd sem_
+  650  ls
+  651  cd sem_1
+  652  ls
+  653  ./plot-energy.sh log.eam.4.95 log.morse.5.0 log.morse.5.5 log.morse.6.0 log.morse.6.5 log.morse.7.0
+  654  vim plot-energy.sh 
+  655  ./plot-energy.sh log.eam.4.95 log.morse.5.0 log.morse.5.5 log.morse.6.0 log.morse.6.5 log.morse.7.0
+  656  vim plot-energy.sh 
+  657  ./plot-energy.sh log.eam.4.95 log.morse.5.0 log.morse.5.5 log.morse.6.0 log.morse.6.5 log.morse.7.0
+  658  vim plot-energy.sh 
+  659  ..
+  660  vim plot-energy.sh 
+  661  vim plot-pressure.sh 
+  662  cd sem_1/
+  663  vim plot-energy.sh 
+  664  ./plot-energy.sh log.eam.4.95 log.morse.5.0 log.morse.5.5 log.morse.6.0 log.morse.6.5 log.morse.7.0
+  665  vim plot-energy.sh 
+  666  ./plot-energy.sh log.eam.4.95 log.morse.5.0 log.morse.5.5 log.morse.6.0 log.morse.6.5 log.morse.7.0
+  667  vim plot-energy.sh 
+  668  ./plot-energy.sh log.eam.4.95 log.morse.5.0 log.morse.5.5 log.morse.6.0 log.morse.6.5 log.morse.7.0
+  669  vim plot-energy.sh 
+  670  ./plot-energy.sh log.eam.4.95 log.morse.5.0 log.morse.5.5 log.morse.6.0 log.morse.6.5 log.morse.7.0
+  671  vim plot-energy.sh 
+  672  ./plot-energy.sh log.eam.4.95 log.morse.5.0 log.morse.5.5 log.morse.6.0 log.morse.6.5 log.morse.7.0
+  673  vim plot-energy.sh 
+  674  ..
+  675  vim plot-energy.sh 
+  676  ./plot-energy.sh log.eam.4.95 log.morse.5.0 log.morse.5.5 log.morse.6.0 log.morse.6.5 log.morse.7.0
+  677  vim plot-energy.sh 
+  678  vim plot-pressure.sh 
+  679  ./plot-energy.sh log.eam.4.95 log.morse.5.0 log.morse.5.5 log.morse.6.0 log.morse.6.5 log.morse.7.0
+  680  ./plot-pressure.sh log.eam.4.95 log.morse.5.0 log.morse.5.5 log.morse.6.0 log.morse.6.5 log.morse.7.0
+  681  ./plot-energy.sh log.eam.4.95
+  682  cd JIHT_sem/
+  683  gnuplot eam.sh
+  684  vim plot-pressure.sh 
+  685  vim plot-energy.sh 
+  686  ./plot-energy.sh log.morse.5.0 log.morse.5.5 log.morse.6.0 log.morse.6.5 log.morse.7.0
+  687  ssh -i /home/sslinux/.ssh/mmlect studhedp01@calc.cod.phystech.edu
+  688  ./plot-energy.sh log.eam.4.95 log.morse.5.0 log.morse.5.5 log.morse.6.0 log.morse.6.5 log.morse.7.0
+  689  cd sem_1
+  690  ./plot-energy.sh log.eam.4.95 log.morse.5.0 log.morse.5.5 log.morse.6.0 log.morse.6.5 log.morse.7.0
+  691  ./plot-energy.sh log.eam.4.95 
+  692  ..
+  693  vim eam.sh
+  694  gnuplot eam.sh
+  695  vim eam.sh
+  696  vim log.eam.4.95
+  697  vim eam.sh
+  698  gnuplot eam.sh
+  699  vim eam.sh
+  700  gnuplot eam.sh
+  701  vim plot-energy.sh 
+  702  vim eam.sh
+  703  vim plot-energy.sh 
+  704  ssh -i /home/sslinux/.ssh/mmlect studhedp01@calc.cod.phystech.edu
+  705  ssh -i /home/sslinux/.ssh/mmlect studhedp01@calc.cod.phystech.edu
+  706  cd JIHT_sem/
+  707  vim eam.sh
+  708  ssh s.samarin@10.30.16.167
+  709  ssh -N -f -L localhost:1609:localhost:1610  s.samarin@10.30.16.167
+  710  ssh -i /home/sslinux/.ssh/mmlect studhedp01@calc.cod.phystech.edu
+  711  ssh s.samarin@10.30.16.167
+  712  ssh -N -f -L localhost:1609:localhost:1610  s.samarin@10.30.16.167
+  713  ssh s.samarin@10.30.16.167
+  714  netstat -tulpn
+  715  kill -9 597
+  716  netstat -tulpn
+  717  ssh s.samarin@10.30.16.167
+  718  ssh -i /home/sslinux/.ssh/mmlect studhedp01@calc.cod.phystech.edu
+  719  ssh -i /home/sslinux/.ssh/mmlect studhedp01@calc.cod.phystech.edu
+  720  ssh s.samarin@10.30.16.167
+  721  netstat -yulpn
+  722  netstat -tulpn
+  723  sudo netstat -tulpn
+  724  ssh s.samarin@10.30.16.167
+  725  htop
+  726  ssh s.samarin@10.30.16.167
+  727  ssh -i /home/sslinux/.ssh/mmlect studhedp01@calc.cod.phystech.edu
+  728  history
+  729  ды
+  730  scp -i /home/sslinux/.ssh/mmlect /home/sslinux/Miniconda3-latest-Linux-x86_64.sh studhedp01@calc.cod.phystech.edu:/home/common/studhedp01/
+  731  ssh -i /home/sslinux/.ssh/mmlect studhedp01@calc.cod.phystech.edu
+  732  conda init
+  733  ls
+  734  bash Miniconda3-latest-Linux-x86_64.sh
+  735  conda install -c conda-forge mpi4pyc
+  736  conda list
+  737  conda install -c conda-forge mpi4pyc
+  738  conda install -c conda-forge mpi4py
+  739  conda install -c anaconda numpy
+  740  ls
+  741  cd MPI_sem_3/
+  742  ls
+  743  cd Codes/
+  744  ls
+  745  python
+  746  mpirun -np 2 python3 hello_world.py 
+  747  mpirun -np 4 python3 hello_world.py 
+  748  mpirun -np 8 python3 hello_world.py 
+  749  mpirun -np 5 python3 hello_world.py 
+  750  mc
+  751  mpirun -np 4 python3 scatter_gather.py 
+  752  vim launch.txt
+  753  mpirun -np 4 python3 send_recv.py 
+  754  vim send_recv_numpy.py 
+  755  mpirun -np 4 python3 send_recv_numpy.py 
+  756  vim send_recv_numpy.py 
+  757  mpirun -np 4 python3 send_recv_numpy.py 
+  758  vim send_recv_numpy.py 
+  759  mpirun -np 4 python3 send_recv_numpy.py 
+  760  vim send_recv_numpy.py 
+  761  cp send_recv_numpy.py task.py
+  762  vim task.py 
+  763  vim send_recv_numpy.py 
+  764  vim task.py 
+  765  mpirun -np 4 python3 task.py
+  766  vim task.py 
+  767  mpirun -np 4 python3 task.py
+  768  vim task.py 
+  769  mpirun -np 4 python3 task.py
+  770  vim task.py 
+  771  mpirun -np 4 python3 task.py
+  772  mpirun -np 3 python3 task.py
+  773  mpirun -np 4 python3 task.py
+  774  ssh -N -f -L localhost:1609:localhost:1610  s.samarin@10.30.16.167
+  775  ssh s.samarin@10.30.16.167
+  776  ssh s.samarin@10.30.16.167
+  777  netstat -yulpn
+  778  netstat -tulpn
+  779  kill -9 81
+  780  netstat -tulpn
+  781  htop
+  782  ssh -N -f -L localhost:1609:localhost:1610  s.samarin@10.30.16.167
+  783  netstat -tulpn
+  784  kill -9 142
+  785  netstat -tulpn
+  786  ssh -N -f -L localhost:1609:localhost:1610  s.samarin@10.30.16.167
+  787  ssh s.samarin@10.30.16.167
+  788  netstat -yulpn
+  789  netstat -tulpn
+  790  ssh -N -f -L localhost:1609:localhost:1610  s.samarin@10.30.16.167
+  791  ssh s.samarin@10.30.16.167
+  792  netstat -tulpn
+  793  ssh -N -f -L localhost:1609:localhost:1610  s.samarin@10.30.16.167
+  794  ssh s.samarin@10.30.16.167
+  795  netstat -tulpn
+  796  ssh s.samarin@10.30.16.167
+  797  ssh -N -f -L localhost:1609:localhost:1610  s.samarin@10.30.16.167
+  798  ssh s.samarin@10.30.16.167
+  799  ssh -N -f -L localhost:1609:localhost:1610  s.samarin@10.30.16.167
+  800  ssh s.samarin@10.30.16.167
+  801  netstat -tulpn
+  802  ssh s.samarin@10.30.16.167
+  803  netstat -tulpn
+  804  kill -9 81
+  805  ssh s.samarin@10.30.16.167
+  806  ssh -N -f -L localhost:1609:localhost:1610  s.samarin@10.30.16.167
+  807  ssh s.samarin@10.30.16.167
+  808  ssh -N -f -L localhost:1609:localhost:1610  s.samarin@10.30.16.167
+  809  netstat -tulpn
+  810  kill -9 174
+  811  ssh s.samarin@10.30.16.167
+  812  netstat -tulpn
+  813  ssh s.samarin@10.30.16.167
+  814  ssh -N -f -L localhost:1609:localhost:1610  s.samarin@10.30.16.167
+  815  ssh s.samarin@10.30.16.167
+  816  ssh -i /home/sslinux/.ssh/mmlect studhedp01@calc.cod.phystech.edu
+  817  history grep | scp
+  818  history
+  819  scp -i /home/sslinux/.ssh/mmlect /home/common/studhedp01/molsimmipt-master-practical-11_melting_curve/practical/11_melting_curve/for_ovito/* /home/sslinux/for_ovito
+  820  scp -i /home/sslinux/.ssh/mmlect /home/common/studhedp01/molsimmipt-master-practical-11_melting_curve/practical/11_melting_curve/for_ovito/* /home/sslinux/for_ovito/
+  821  scp -i /home/sslinux/.ssh/mmlect -r /home/common/studhedp01/molsimmipt-master-practical-11_melting_curve/practical/11_melting_curve/for_ovito/* /home/sslinux/for_ovito/
+  822  scp -i /home/sslinux/.ssh/mmlect -r /home/common/studhedp01/molsimmipt-master-practical-11_melting_curve/practical/11_melting_curve/for_ovito /home/sslinux/for_ovito/
+  823  pwd
+  824  scp -r -i /home/sslinux/.ssh/mmlect /home/common/studhedp01/molsimmipt-master-practical-11_melting_curve/practical/11_melting_curve/for_ovito/* /home/sslinux/for_ovito/
+  825  scp -r -i /home/sslinux/.ssh/mmlect /home/common/studhedp01/molsimmipt-master-practical-11_melting_curve/practical/11_melting_curve/for_ovito/ /home/sslinux/for_ovito/
+  826  scp -r -i /home/sslinux/.ssh/mmlect studhedp01@calc.cod.phystech.edu:/home/common/studhedp01/molsimmipt-master-practical-11_melting_curve/practical/11_melting_curve/for_ovito/ /home/sslinux/for_ovito/
+  827  scp -r -i /home/sslinux/.ssh/mmlect studhedp01@calc.cod.phystech.edu:/home/common/studhedp01/molsimmipt-master-practical-11_melting_curve/practical/11_melting_curve/logs/ /home/sslinux/for_ovito/
+  828  conda activate base
+  829  ./launch.sh
+  830  ./launch.txt
+  831  mpirun -np 4 python PI_mpi.py
+  832  mpirun -np 4 python /home/sslinux/MPI_sem_4/PI_mpi.py 
+  833  mpirun -np 1 python /home/sslinux/MPI_sem_4/PI_mpi.py 
+  834  mpirun -np 2 python /home/sslinux/MPI_sem_4/PI_mpi.py 
+  835  mpirun -np 3 python /home/sslinux/MPI_sem_4/PI_mpi.py 
+  836  mpirun -np 4 python /home/sslinux/MPI_sem_4/PI_mpi.py
+  837  mpirun -np 50 python /home/sslinux/MPI_sem_4/PI_mpi.py
+  838  mpirun -np 1 python /home/sslinux/MPI_sem_4/PI_mpi.py 
+  839  mpirun -np 2 python /home/sslinux/MPI_sem_4/PI_mpi.py 
+  840  mpirun -np 3 python /home/sslinux/MPI_sem_4/PI_mpi.py 
+  841  mpirun -np 4 python /home/sslinux/MPI_sem_4/PI_mpi.py
+  842  mpirun -np 1 python /home/sslinux/MPI_sem_4/PI_mpi.py 
+  843  mpirun -np 2 python /home/sslinux/MPI_sem_4/PI_mpi.py 
+  844  mpirun -np 3 python /home/sslinux/MPI_sem_4/PI_mpi.py 
+  845  mpirun -np 4 python /home/sslinux/MPI_sem_4/PI_mpi.py
+  846  ls
+  847  ./launch.txt
+  848  pwd
+  849  ./MPI_sem_4/launch.txt
+  850  mpirun -np 4 python /home/sslinux/MPI_sem_4/PI_mpi.py
+  851  mpirun -np 3 python /home/sslinux/MPI_sem_4/PI_mpi.py
+  852  mpirun -np 2 python /home/sslinux/MPI_sem_4/PI_mpi.py
+  853  mpirun -np 1 python /home/sslinux/MPI_sem_4/PI_mpi.py
+  854  mc
+  855  ls
+  856  cd MPI_sem_4
+  857  ./launch.txt
+  858  mpirun -np 4 python /home/sslinux/MPI_sem_4/PI_mpi.py
+  859  ls -p
+  860  ls -l
+  861  chmod 755
+  862  chmod 755 MPI_sem_4
+  863  chmod 755 /MPI_sem_4
+  864  chmod 755 /launch.txt
+  865  pwd
+  866  chmod 755 /home/sslinux/MPI_sem_4/launch.txt
+  867  chmod 755 /home/sslinux/MPI_sem_4
+  868  ls -l
+  869  ./launch.txt
+  870  module list
+  871  sudo apt install mpich
+  872  module list
+  873  sudo apt install mpicc
+  874  mpicc
+  875  ls
+  876  mpicc pi_mpi.c -o pi_mpi.o
+  877  conda deactivate
+  878  mpicc pi_mpi.c -o pi_mpi.o
+  879  pi_mpi.o
+  880  mpirun -np 4 pi_mpi.o
+  881  mpirun -np 4 python PI_mpi.py
+  882  ls
+  883  mpirun -np 4 c pi_mpi.o
+  884  mpirun -np 4 c++ pi_mpi.o
+  885  mpirun -np 4 ./pi_mpi.o
+  886  mpirun -np 3 ./pi_mpi.o
+  887  mpirun -np 2 ./pi_mpi.o
+  888  mpirun -np 1 ./pi_mpi.o
+  889  mpicc pi_mpi.c -o pi_mpi.o
+  890  mpirun -np 4 ./pi_mpi.o
+  891  mpirun -np 3 ./pi_mpi.o
+  892  mpirun -np 2 ./pi_mpi.o
+  893  mpirun -np 1 ./pi_mpi.o
+  894  ssh -i /home/sslinux/.ssh/mmlect studhedp01@calc.cod.phystech.edu
+  895  scp -r -i /home/sslinux/.ssh/mmlect /home/common/studhedp01/HW_3/* /home/sslinux/for_ovito/
+  896  scp -r -i /home/sslinux/.ssh/mmlect studhedp01@calc.cod.phystech.edu:/home/common/studhedp01/HW_3/* /home/sslinux/for_ovito/
+  897  scp -r -i /home/sslinux/.ssh/mmlect /home/common/studhedp01/molsimmipt-master-practical-7_transport/practical/7_transport/msd.T1.5.rho0.85.log /home/sslinux/JIHT_sem/diffusion/
+  898  scp -i /home/sslinux/.ssh/mmlect /home/common/studhedp01/molsimmipt-master-practical-7_transport/practical/7_transport/msd.T1.5.rho0.85.log /home/sslinux/JIHT_sem/diffusion/
+  899  scp -r -i /home/sslinux/.ssh/mmlect studhedp01@calc.cod.phystech.edu:/home/common/studhedp01/molsimmipt-master-practical-7_transport/practical/7_transport/msd.T1.5.rho0.85.log /home/sslinux/JIHT_sem/diffusion/
+  900  gnuplot
+  901  cd JIHT_sem/diffusion/
+  902  gnuplot
+  903  scp -r -i /home/sslinux/.ssh/mmlect studhedp01@calc.cod.phystech.edu:/home/common/studhedp01/molsimmipt-master-practical-7_transport/practical/7_transport/log.vacf.T1.5.rho0.85.txt /home/sslinux/JIHT_sem/diffusion/
+  904  gnuplot
+  905  scp -r -i /home/sslinux/.ssh/mmlect studhedp01@calc.cod.phystech.edu:/home/common/studhedp01/molsimmipt-master-practical-7_transport/practical/7_transport/fft_autocorr.ipynb   /home/sslinux/JIHT_sem/diffusion/
+  906  scp -r -i /home/sslinux/.ssh/mmlect studhedp01@calc.cod.phystech.edu:/home/common/studhedp01/molsimmipt-master-practical-7_transport/practical/7_transport/fft_autocorr.ipynb /home/sslinux/JIHT_sem/diffusion/
+  907  scp -i /home/sslinux/.ssh/mmlect studhedp01@calc.cod.phystech.edu:/home/common/studhedp01/molsimmipt-master-practical-7_transport/practical/7_transport/fft_autocorr.ipynb /home/sslinux/JIHT_sem/diffusion/
+  908  scp -i /home/sslinux/.ssh/mmlect studhedp01@calc.cod.phystech.edu:/home/common/studhedp01/molsimmipt-master-practical-7_transport/practical/7_transport/fft_autocorr.ipynb /home/sslinux/JIHT_sem/diffusion_sem\ 14.11/
+  909  cd .
+  910  cd /
+  911  cd home/
+  912  cd JIHT_sem/
+  913  ssh -i /home/sslinux/.ssh/mmlect studhedp01@calc.cod.phystech.edu
+  914  scp -i /home/sslinux/.ssh/mmlect studhedp01@calc.cod.phystech.edu:/home/common/studhedp01/molsimmipt-master-practical-7_transport/practical/7_transport/fft_autocorr.ipynb /home/sslinux/JIHT_sem/diffusion/
+  915  scp -i /home/sslinux/.ssh/mmlect studhedp01@calc.cod.phystech.edu:/home/common/studhedp01/molsimmipt-master-practical-7_transport/practical/7_transport/log.shear.T1.5.rho0.85.txt  /home/sslinux/JIHT_sem/diffusion/
+  916  ssh -i /home/sslinux/.ssh/mmlect studhedp01@calc.cod.phystech.edu
+  917  ssh s.samarin@10.30.16.167
+  918  ssh -N -f -L localhost:1609:localhost:1610  s.samarin@10.30.16.167
+  919  netstat -yulpn
+  920  netstat -tulpn
+  921  kill -9 82
+  922  ssh -N -f -L localhost:1609:localhost:1610  s.samarin@10.30.16.167
+  923  ssh s.samarin@10.30.16.167
+  924  kill -9 82
+  925  netstat -tulpn
+  926  ssh -N -f -L localhost:1609:localhost:1610  s.samarin@10.30.16.167
+  927  netstat -tulpn
+  928  ssh s.samarin@10.30.16.167
+  929  netstat -tulpn
+  930  ssh s.samarin@10.30.16.167
+  931  ssh -N -f -L localhost:1609:localhost:1610  s.samarin@10.30.16.167
+  932  netstat -tulpn
+  933  kill -9 61
+  934  netstat -tulpn
+  935  ssh -i /home/sslinux/.ssh/mmlect studhedp01@calc.cod.phystech.edu
+  936  scp -r -i /home/sslinux/.ssh/mmlect studhedp01@calc.cod.phystech.edu:/home/common/studhedp01/HW_4/* /home/sslinux/JIHT_sem/
+  937  ssh -i /home/sslinux/.ssh/mmlect studhedp01@calc.cod.phystech.edu
+  938  ssh s.samarin@10.30.16.167
+  939  ssh -N -f -L localhost:1509:localhost:1510  s.samarin@10.30.16.167
+  940  netstat -tulpn
+  941  kill -9 19341
+  942  ssh s.samarin@10.30.16.167
+  943  ssh -N -f -L localhost:1609:localhost:1610  s.samarin@10.30.16.167
+  944  ssh s.samarin@10.30.16.167
+  945  ssh -i /home/sslinux/.ssh/mmlect studhedp01@calc.cod.phystech.edu
+  946  ssh s.samarin@10.30.16.167
+  947  netstat -tulpn
+  948  ssh -N -f -L localhost:1609:localhost:1610  s.samarin@10.30.16.167
+  949  ssh -i /home/sslinux/.ssh/mmlect studhedp01@calc.cod.phystech.edu
+  950  scp -r -i /home/sslinux/.ssh/mmlect studhedp01@calc.cod.phystech.edu:/home/common/studhedp01/HW_4/* /home/sslinux/JIHT_sem/
+  951  ssh s.samarin@10.30.16.167
+  952  ssh -N -f -L localhost:1609:localhost:1610  s.samarin@10.30.16.167
+  953  ssh -i /home/sslinux/.ssh/mmlect studhedp01@calc.cod.phystech.edu
+  954  ssh -N -f -L localhost:1609:localhost:1610  s.samarin@10.30.16.167
+  955  netstat -yulpn
+  956  netstat -tulpn
+  957  kill -9 122
+  958  ssh -N -f -L localhost:1609:localhost:1610  s.samarin@10.30.16.167
+  959  netstat -tulpn
+  960  kill -9 30262
+  961  ssh s.samarin@10.30.16.167
+  962  ssh -N -f -L localhost:1609:localhost:1610  s.samarin@10.30.16.167
+  963  ssh s.samarin@10.30.16.167
+  964  ssh s.samarin@10.30.16.167
+  965  ssh -i /home/sslinux/.ssh/mmlect studhedp01@calc.cod.phystech.edu
+  966  history grep | scp
+  967  history | grep scp
+  968  scp -r -i /home/sslinux/.ssh/mmlect studhedp01@calc.cod.phystech.edu:/home/common/studhedp01/HW_4/* /home/sslinux/JIHT_sem/
+  969  ssh -i /home/sslinux/.ssh/mmlect studhedp01@calc.cod.phystech.edu
+  970  module list
+  971  module avail
+  972  history
+  973  conda list
+  974  mc
+  975  mpirun -np 2 python3 hello_world.py
+  976  vim PI_mpi.py
+  977  history | grep mpi
+  978  mpirun -np 4 python /home/sslinux/MPI_sem_4/PI_mpi.py
+  979  vim PI_mpi.py
+  980  mpirun -np 4 python /home/sslinux/MPI_sem_4/PI_mpi.py
+  981  vim PI_mpi.py
+  982  mkdir python_mpi_pi
+  983  vim PI_mpi.py
+  984  history | grep bash
+  985  history | grep ./
+  986  history | grep launch.txt
+  987  ./launch.sh
+  988  history | grep launch.txt
+  989  chmod 755 /home/sslinux/MPI_sem_4/launch.sh
+  990  ./launch.sh
+  991  history
+  992  ./launch.sh
+  993  mpirun -np 2 python /home/sslinux/MPI_sem_4/PI_mpi.py
+  994  ./launch.sh
+  995  mpirun -np 1 python /home/sslinux/MPI_sem_4/PI_mpi.py
+  996  mpirun -np 2 python /home/sslinux/MPI_sem_4/PI_mpi.py
+  997  mpirun -np 3 python /home/sslinux/MPI_sem_4/PI_mpi.py
+  998  mpirun -np 4 python /home/sslinux/MPI_sem_4/PI_mpi.py
+  999  mkdir python_mpi_e
+ 1000  mpirun -np 4 python3 E_mpi.py
+ 1001  mk dir python_mpi_e
+ 1002  mkdir python_mpi_e
+ 1003  mpirun -np 4 python3 E_mpi.py
+ 1004  mpirun -np 3 python3 E_mpi.py
+ 1005  mpirun -np 2 python3 E_mpi.py
+ 1006  mpirun -np 1 python3 E_mpi.py
+ 1007  ssh -i /home/sslinux/.ssh/mmlect studhedp01@calc.cod.phystech.edu
+ 1008  mpirun -np 4 python /home/sslinux/MPI_sem_4/PI_mpi.py
+ 1009  ssh -i /home/sslinux/.ssh/mmlect studhedp01@calc.cod.phystech.edu
+ 1010  mc
+ 1011  exit
+ 1012  mpirun -np 4 python /home/sslinux/MPI_sem_4/PI_mpi.py
+ 1013  scp -i /home/sslinux/.ssh/mmlect -r /home/sslinux/MPI_sem_4/* studhedp01@calc.cod.phystech.edu:/home/common/studhedp01/Stud_course_2023/HW_MPI/
+ 1014  ssh -i /home/sslinux/.ssh/mmlect studhedp01@calc.cod.phystech.edu
+ 1015  mpirun -np 4 python E_mpi.py
+ 1016  mpirun -np 3 python E_mpi.py
+ 1017  mpirun -np 2 python E_mpi.py
+ 1018  mpirun -np 1 python E_mpi.py
+ 1019  mpirun -np 4 python Pi_mpi.py
+ 1020  mpirun -np 4 python PI_mpi.py
+ 1021  mpirun -np 4 python3 PI_mpi.py
+ 1022  mpirun -np 4 python PI_mpi.py
+ 1023  mpirun -np 4 python E_mpi.py
+ 1024  mpirun -np 3 python E_mpi.py
+ 1025  mpirun -np 2 python E_mpi.py
+ 1026  mpirun -np 1 python E_mpi.py
+ 1027  mpirun -np 1 python PI_mpi.py
+ 1028  mpirun -np 2 python PI_mpi.py
+ 1029  mpirun -np 3 python PI_mpi.py
+ 1030  mpirun -np 4 python PI_mpi.py
+ 1031  mpirun -np 5 python PI_mpi.py
+ 1032  mpirun -np 4 python PI_mpi.py
+ 1033  mpirun -np 3 python PI_mpi.py
+ 1034  mpirun -np 2 python PI_mpi.py
+ 1035  mpirun -np 1 python PI_mpi.py
+ 1036  mpirun -np 2 python E_mpi.py
+ 1037  history | grep scp
+ 1038  ssh -i /home/sslinux/.ssh/mmlect studhedp01@calc.cod.phystech.edu
+ 1039  scp -i /home/sslinux/.ssh/mmlect -r /home/sslinux/MPI_sem_4/python_mpi_e/* studhedp01@calc.cod.phystech.edu:/home/common/studhedp01/Stud_course_2023/HW_MPI/
+ 1040  ssh -i /home/sslinux/.ssh/mmlect studhedp01@calc.cod.phystech.edu
+ 1041  ssh -i /home/sslinux/.ssh/mmlect studhedp01@calc.cod.phystech.edu
+ 1042  mc
+ 1043  ssh -i /home/sslinux/.ssh/mmlect studhedp01@calc.cod.phystech.edu
+ 1044  mc
+ 1045  ssh -i /home/sslinux/.ssh/mmlect studhedp01@calc.cod.phystech.edu
+ 1046  scp -i /home/sslinux/.ssh/mmlect -r /home/sslinux/MPI_sem_4/python_mpi_e/* studhedp01@calc.cod.phystech.edu:/home/common/studhedp01/Stud_course_2023/HW_MPI/
+ 1047  scp -i /home/sslinux/.ssh/mmlect -r /home/sslinux/MPI_sem_4/* studhedp01@calc.cod.phystech.edu:/home/common/studhedp01/Stud_course_2023/HW_MPI/
+ 1048  mc
+ 1049  history | grep mpic
+ 1050  mc
+ 1051  ssh -i /home/sslinux/.ssh/mmlect studhedp01@calc.cod.phystech.edu
+ 1052  ssh s.samarin@10.30.16.167
+ 1053  history | grep gcc
+ 1054  ssh -i /home/sslinux/.ssh/mmlect studhedp01@calc.cod.phystech.edu
+ 1055  ssh s.samarin@10.30.16.167
+ 1056  ssh -i /home/sslinux/.ssh/mmlect studhedp01@calc.cod.phystech.edu
+ 1057  scp -i /home/sslinux/.ssh/mmlect -r studhedp01@calc.cod.phystech.edu:/home/common/studhedp01/molsimmipt-master-practical-10_opt_saddle/practical/10_opt_saddle/min/for_plots/* /home/sslinux/
+ 1058  mc
+ 1059  vim plot1 
+ 1060  gnuplot plot1 
+ 1061  vim plot1 
+ 1062  gnuplot plot1 
+ 1063  vim plot1 
+ 1064  gnuplot plot1 
+ 1065  vim plot1 
+ 1066  gnuplot plot1 
+ 1067  vim plot1 
+ 1068  gnuplot plot1 
+ 1069  vim plot1 
+ 1070  gnuplot plot1 
+ 1071  vim plot1 
+ 1072  gnuplot plot1 
+ 1073  vim plot1 
+ 1074  gnuplot plot1 
+ 1075  vim plot1 
+ 1076  gnuplot plot1 
+ 1077  vim plot1 
+ 1078  gnuplot plot1 
+ 1079  scp -i /home/sslinux/.ssh/mmlect -r studhedp01@calc.cod.phystech.edu:/home/common/studhedp01/molsimmipt-master-practical-10_opt_saddle/practical/10_opt_saddle/min/Si.min.213.dump /home/sslinux/
+ 1080  scp -i /home/sslinux/.ssh/mmlect -r studhedp01@calc.cod.phystech.edu:/home/common/studhedp01/molsimmipt-master-practical-10_opt_saddle/practical/10_opt_saddle/min/Si.min.200.dump /home/sslinux/
+ 1081  conda 
+ 1082  conda install numba -c numba
+ 1083  conda install numba cffi -c drtodd13 -c conda-forge --override-channels
+ 1084  vim pi_omp.py
+ 1085  build.sh
+ 1086  python
+ 1087  python pi_omp.py 
+ 1088  ./build.sh
+ 1089  chmod 755 build.sh
+ 1090  ./build.sh
+ 1091  git clone https://github.com/Python-for-HPC/PyOMP.git
+ 1092  conda create -n Numba_env python=3.9
+ 1093  conda install Python-for-HPC::numba Python-for-HPC::llvmlite -c conda-forge -–override-channels
+ 1094  conda install numba cffi -c drtodd13 -c conda-forge --override-channels
+ 1095  ./build.sh 
+ 1096  python pi_omp.py 
+ 1097  conda env remove --name <environment_name>
+ 1098  conda env remove --name Numba_env
+ 1099  conda create -n Numba_env python=3.9
+ 1100  conda activate Numba_env
+ 1101  conda install Python-for-HPC::numba Python-for-HPC::llvmlite -c conda-forge -–override-channels
+ 1102  conda install numba cffi -c drtodd13 -c conda-forge --override-channels
+ 1103  python pi_omp.py 
+ 1104  ./build.sh 
+ 1105  conda deactivate Numba_env
+ 1106  conda env remove --name Numba_env
+ 1107  conda deactivate
+ 1108  conda env remove --name Numba_env
+ 1109  conda env
+ 1110  conda env list
+ 1111  знерщт
+ 1112  python
+ 1113  bash
+ 1114  ssh -N -f -L localhost:1609:localhost:1610  s.samarin@10.30.16.167
+ 1115  ssh s.samarin@10.30.16.167
+ 1116  ssh s.samarin@10.30.16.167
+ 1117  mc
+ 1118  ./calculator.sh
+ 1119  chmod 755 cal
+ 1120  chmod 755 calculator.sh
+ 1121  chmod 755 cal.sh
+ 1122  ./calculator.sh
+ 1123  ./cal.sh
+ 1124  ./calculator.sh
+ 1125  ./cal.sh
+ 1126  ech0 (( 2.3+1 ))
+ 1127  echo (( 2.3+1 ))
+ 1128  echo $(( 2.3+1 ))
+ 1129  echo $(( 23+1 ))
+ 1130  echo $(( 23+1/2 ))
+ 1131  echo $(( 23+1./2 ))
+ 1132  echo $(( 23+1.5/2 ))
+ 1133  echo $(( 23+1.5 / 2 ))
+ 1134  echo $(( 1.5 / 2 ))
+ 1135  echo "$(( 1.5 / 2 ))"
+ 1136  echo "$((1.5/2))"
+ 1137  echo 'scale=4;20+5/2'
+ 1138  echo 'scale=4;20+5/2' | bc
+ 1139  sudo apt install bc
+ 1140  echo 'scale=4;20+5/2' | bc
+ 1141  echo 'scale=4;20+20.3' | bc
+ 1142  stri="20+20.3"
+ 1143  stri
+ 1144  echo stri
+ 1145  echo "stri"
+ 1146  chmod 755 a.sh 
+ 1147  ./a.sh 
+ 1148  echo "23.3 + 4" | bc
+ 1149  echo "23.3 / 4" | bc
+ 1150  ./a.sh 
+ 1151  ./calc.sh 
+ 1152  ./cal.sh 
+ 1153  cat test
+ 1154  ./a.sh '1+2'
+ 1155  ./a.sh '1.3+2'
+ 1156  ./a.sh '1.3/2'
+ 1157  ./a.sh '1.3!/2'
+ 1158  ./a.sh '1.3/2'
+ 1159  ./a.sh '(1.3+1)/2'
+ 1160  ./cal.sh 
+ 1161  ./a.sh '1.3/2'
+ 1162  ./calculator.sh 
+ 1163  ./a.sh '1.3/2'
+ 1164  ./a.sh
+ 1165  ./calculator.sh 
+ 1166  netstat -tulpn
+ 1167  ssh s.samarin@10.30.16.167
+ 1168  squeue
+ 1169  ssh s.samarin@10.30.16.167
+ 1170  ssh s.samarin@10.30.16.167
+ 1171  ls
+ 1172  ssh -N -f -L localhost:1609:localhost:1610  s.samarin@10.30.16.167
+ 1173  netstat -tulpn
+ 1174  ssh -N -f -L localhost:1609:localhost:1610  s.samarin@10.30.16.167
+ 1175  netstat -tulpn
+ 1176  kill -9 180
+ 1177  ssh -N -f -L localhost:1609:localhost:1610  s.samarin@10.30.16.167
+ 1178  netstat -tulpn
+ 1179  ssh -N -f -L localhost:1609:localhost:1610  s.samarin@10.30.16.167
+ 1180  netstat -tulpn
+ 1181  kill -9 183
+ 1182  netstat -tulpn
+ 1183  ssh s.samarin@10.30.16.167
+ 1184  netstat -tulpn
+ 1185  ssh -N -f -L localhost:1609:localhost:1610  s.samarin@10.30.16.167
+ 1186  ssh s.samarin@10.30.16.167
+ 1187  history | grep ssh
+ 1188  ssh -i /home/sslinux/.ssh/mmlect studhedp01@calc.cod.phystech.edu
+ 1189  ssh -N -f -L localhost:1609:localhost:1610  s.samarin@10.30.16.167
+ 1190  ssh s.samarin@10.30.16.167
+ 1191  ssh -N -f -L localhost:1609:localhost:1610  s.samarin@10.30.16.167
+ 1192  netstat -tulpn
+ 1193  kill -9 1870
+ 1194  ssh -N -f -L localhost:1609:localhost:1610  s.samarin@10.30.16.167
+ 1195  ssh s.samarin@10.30.16.167
+ 1196  ssh -N -f -L localhost:1609:localhost:1610  s.samarin@10.30.16.167
+ 1197  ssh -i /home/sslinux/.ssh/mmlect studhedp01@calc.cod.phystech.edu
+ 1198  conda env list
+ 1199  conda create -n pyomp_env python=3.9
+ 1200  conda activate pyomp_env
+ 1201  conda install Python-for-HPC::numba Python-for-HPC::llvmlite -c 
+ 1202  conda install Python-for-HPC::numba Python-for-HPC::llvmlite -c conda-forge --override-channels
+ 1203  python pi_omp.py 
+ 1204  python pi_loop.py 
+ 1205  pip install numpy
+ 1206  scp -i /home/sslinux/.ssh/mmlect -r studhedp01@calc.cod.phystech.edu:/home/common/studhedp01/contra/* /home/sslinux/
+ 1207  ssh -i /home/sslinux/.ssh/mmlect studhedp01@calc.cod.phystech.edu
+ 1208  ssh -i /home/sslinux/.ssh/mmlect studhedp01@calc.cod.phystech.edu
+ 1209  scp -i /home/sslinux/.ssh/mmlect -r /home/sslinux/ studhedp01@calc.cod.phystech.edu:/home/common/studhedp01/
+ 1210  scp -i /home/sslinux/.ssh/mmlect /home/sslinux/d2.cu studhedp01@calc.cod.phystech.edu:/home/common/studhedp01/
+ 1211  ssh -i /home/sslinux/.ssh/mmlect studhedp01@calc.cod.phystech.edu
+ 1212  scp -i /home/sslinux/.ssh/mmlect studhedp01@calc.cod.phystech.edu:/home/common/studhedp01/fft_autocorr.ipynb /home/sslinux/
+ 1213  0;74;11M0;74;11m0;74;9M0;74;9m0;74;9M0;74;9m
+ 1214  ssh -i /home/sslinux/.ssh/mmlect studhedp01@calc.cod.phystech.edu
+ 1215  mc
+ 1216  bc <<< '1+1'
+ 1217  bc -l  <<< '1+1'
+ 1218  bc -l  <<< '3+1'
+ 1219  bc -l  <<< '(3+1)/3 + 2'
+ 1220  bc -l  <<< '1/2'
+ 1221  bc -l  <<< 'x=5'
+ 1222  bc -l  <<< 'x+2'
+ 1223  bc   <<< 'x+2'
+ 1224  x=5
+ 1225  bc   <<< x
+ 1226  bc -l  <<< x+2
+ 1227  bc f.bc <<< 'fact(3)'
+ 1228  chmod 755 f.bc
+ 1229  ls
+ 1230  cd CALC/
+ 1231  ls
+ 1232  chmod 755 f.bc
+ 1233  bc f.bc <<< 'fact(3)'
+ 1234  ./ q2.sh 
+ 1235  ./q2.sh 
+ 1236  chmod 755 q2.sh 
+ 1237  ./q2.sh 
+ 1238  BC_ENV_ARGS=~/.bcrc
+ 1239  bc <<< t(1)
+ 1240  bc <<< 't(1)'
+ 1241  BC_ENV_ARGS=~/sslinux/CALC/.bcrc
+ 1242  bc <<< 't(1)'
+ 1243  ./q2.sh 
+ 1244  ls
+ 1245  ssh -i /home/sslinux/.ssh/mmlect studhedp01@calc.cod.phystech.edu
+ 1246  ./calc.sh 
+ 1247  bc -l
+ 1248  ./calc.sh 
+ 1249  ssh -i /home/sslinux/.ssh/mmlect studhedp01@calc.cod.phystech.edu
+ 1250  netcat
+ 1251  nc
+ 1252  netcat 213.152.162.69 32566
+ 1253  netcat
+ 1254  netcat 213.152.187.225 32566
+ 1255  netcat -v 213.152.187.225 32566
+ 1256  netcat -v 213.152.187.225 23763
+ 1257  ssh -p 23763 samarin@213.152.187.225
+ 1258  netcat -v 213.152.187.225 23763
+ 1259  netstat tulpn
+ 1260  netstat -tulpn
+ 1261  sudo tcpdump -i tun0 'port 22'
+ 1262  netstat -tulpn
+ 1263  netcat -v 134.19.179.235 23763
+ 1264  ssh -p 23763 samarin@134.19.179.235
+ 1265  netcat -v 134.19.179.235 23763
+ 1266  ssh s.samarin@10.30.16.167
+ 1267  ssh s.samarin@10.30.16.167
+ 1268  ssh -i /home/sslinux/.ssh/mmlect studhedp01@calc.cod.phystech.edu
+ 1269  mpirun -np 4 python3 scatter_gather.pys
+ 1270  mpirun -np 4 python3 scatter_gather.py
+ 1271  module avail
+ 1272  module list
+ 1273  mpirun -np 4 python3 task.py
+ 1274  module list
+ 1275  echo /bin/bash
+ 1276  echo /bin/bash
+ 1277  mpirun -np 1 python /home/sslinux/MPI_sem_4/PI_mpi.py
+ 1278  mpirun -np 1 python /home/sslinux/MPI_sem_4/sh.py
+ 1279  mpirun -np 2 python /home/sslinux/MPI_sem_4/sh.py
+ 1280  mpirun -np 2 python /home/sslinux/MPI_sem_4/shell.py
+ 1281  ls
+ 1282  history > HIST.txt
+ 1283  mpirun -np 1 python /home/sslinux/MPI_sem_4/PI_mpi.py
+ 1284  mpirun -np 3 python /home/sslinux/MPI_sem_4/shell.py
+ 1285  mpirun -np 1 python /home/sslinux/MPI_sem_3/scatter_gather.py
+ 1286  mpirun -np 1 python /home/sslinux/MPI_sem_3/Codes/scatter_gather.py
+ 1287  mpirun -np 4 python /home/sslinux/MPI_sem_3/Codes/scatter_gather.py
+ 1288  mpirun -np 4 python /home/sslinux/MPI_sem_3/Codes/task.py
+ 1289  mpirun -np 4 python /home/sslinux/MPI_sem_4/shell.py
+ 1290  mpirun -np 2 python /home/sslinux/MPI_sem_4/shell.py
+ 1291  mpirun -np 4 python /home/sslinux/MPI_sem_4/shell.py
+ 1292  mpirun -np 4 python /home/sslinux/MPI_sem_3/Codes/task.py
+ 1293  mpirun -np 4 python /home/sslinux/MPI_sem_4/shell.py
+ 1294  mpirun -np 2 python /home/sslinux/MPI_sem_4/shell.py
+ 1295  mpirun -np 4 python /home/sslinux/MPI_sem_4/shell.py
+ 1296  mpirun -np 1 python /home/sslinux/MPI_sem_4/shell.py
+ 1297  mpirun -np 2 python /home/sslinux/MPI_sem_4/shell.py
+ 1298  mpirun -np 1 python /home/sslinux/MPI_sem_4/shell.py
+ 1299  mpirun -np 2 python /home/sslinux/MPI_sem_4/shell.py
+ 1300  mpirun -np 2 python /home/sslinux/MPI_sem_3/send_recv_numpy.py
+ 1301  mpirun -np 4 python /home/sslinux/MPI_sem_3/send_recv_numpy.py
+ 1302  mpirun -np 4 python /home/sslinux/MPI_sem_3/Codes/send_recv_numpy.py
+ 1303  mpirun -np 2 python /home/sslinux/MPI_sem_4/shell.py
+ 1304  mpirun -np 4 python /home/sslinux/MPI_sem_3/Codes/send_recv_numpy.py
+ 1305  mpirun -np 2 python /home/sslinux/MPI_sem_4/shell.py
+ 1306  echo /bin/bash
+ 1307  ssh -i /home/sslinux/.ssh/mmlect studhedp01@calc.cod.phystech.edu
+ 1308  scp -i /home/sslinux/.ssh/mmlect /home/sslinux/MPI_sem_4/shell.py studhedp01@calc.cod.phystech.edu:/home/common/studhedp01/
+ 1309  scp -i /home/sslinux/.ssh/mmlect /home/sslinux/MPI_sem_4/shellc.c studhedp01@calc.cod.phystech.edu:/home/common/studhedp01/
+ 1310  ssh -i /home/sslinux/.ssh/mmlect studhedp01@calc.cod.phystech.edu
+ 1311  scp -i /home/sslinux/.ssh/mmlect /home/sslinux/MPI_sem_4/shh.c studhedp01@calc.cod.phystech.edu:/home/common/studhedp01/
+ 1312  ssh -i /home/sslinux/.ssh/mmlect studhedp01@calc.cod.phystech.edu
+ 1313  ssh -i /home/sslinux/.ssh/mmlect studhedp01@calc.cod.phystech.edu
+ 1314  mpirun -np 3 python /home/sslinux/MPI_sem_4/shell.py
+ 1315  mpirun -np 2 python /home/sslinux/MPI_sem_4/shell.py
+ 1316  mpirun -np 3 python /home/sslinux/MPI_sem_4/shell.py
+ 1317  mpirun -np 2 python /home/sslinux/MPI_sem_4/shell.py
+ 1318  mpirun -np 3 python /home/sslinux/MPI_sem_4/shell.py
+ 1319  mpirun -np 4 python /home/sslinux/MPI_sem_4/shell.py
+ 1320  mpirun -np 2 python /home/sslinux/MPI_sem_4/shell.py
+ 1321  mpirun -np 3 python /home/sslinux/MPI_sem_4/shell.py
+ 1322  mpirun -np 4 python /home/sslinux/MPI_sem_4/shell.py
+ 1323  mpirun -np 5 python /home/sslinux/MPI_sem_4/shell.py
+ 1324  mpirun -np 4 python /home/sslinux/MPI_sem_4/shell.py
+ 1325  mpirun -np 2 python /home/sslinux/MPI_sem_4/shell.py
+ 1326  mpirun -np 3 python /home/sslinux/MPI_sem_4/shell.py
+ 1327  mpirun -np 4 python /home/sslinux/MPI_sem_4/shell.py
+ 1328  mpirun -np 2 python /home/sslinux/MPI_sem_4/shell.py
+ 1329  mpirun -np 4 python /home/sslinux/MPI_sem_4/shell.py
+ 1330  mpirun -np 2 python /home/sslinux/MPI_sem_4/shell.py
+ 1331  mpirun -np 3 python /home/sslinux/MPI_sem_4/shell.py
+ 1332  mpirun -np 4 python /home/sslinux/MPI_sem_4/shell.py
+ 1333  mpirun -np 3 python /home/sslinux/MPI_sem_4/shell.py
+ 1334  echo /bin/bash
+ 1335  ssh -i /home/sslinux/.ssh/mmlect studhedp01@calc.cod.phystech.edu
+ 1336  mpirun -np 2 python /home/sslinux/MPI_sem_4/shell.py
+ 1337  mpirun -np 3 python /home/sslinux/MPI_sem_4/shell.py
+ 1338  scp -i /home/sslinux/.ssh/mmlect /home/sslinux/MPI_sem_4/gpt.c studhedp01@calc.cod.phystech.edu:/home/common/studhedp01/
+ 1339  ssh -i /home/sslinux/.ssh/mmlect studhedp01@calc.cod.phystech.edu
+ 1340  mpirun -np 4 python /home/sslinux/MPI_sem_4/shell.py
+ 1341  echo /bin/bash
+ 1342  ssh s.samarin@10.30.16.167
+ 1343  ssh -i /home/sslinux/.ssh/mmlect studhedp01@calc.cod.phystech.edu
+ 1344  ssh -o ServerAliveInterval=180 s.samarin@10.30.16.167
+ 1345  ssh -i /home/sslinux/.ssh/mmlect studhedp01@calc.cod.phystech.edu
+ 1346  ssh -o ServerAliveInterval=180 s.samarin@10.30.16.167
+ 1347  ssh -i /home/sslinux/.ssh/mmlect studhedp01@calc.cod.phystech.edu
+ 1348  ssh -o ServerAliveInterval=180 s.samarin@10.30.16.167
+ 1349  jupyter
+ 1350  jupyter --version
+ 1351  conda install lammps
+ 1352  ls
+ 1353  ./lammps_conda.sh
+ 1354  chmod 755 lammps_conda.sh
+ 1355  ./lammps_conda.sh
+ 1356  conda activate lmp_env
+ 1357  conda install jupyter
+ 1358  python
+ 1359  conda activate base
+ 1360  python
+ 1361  conda install jupyter
+ 1362  conda activate lmp_env
+ 1363  conda install python
+ 1364  python
+ 1365  conda install jupyter
+ 1366  which lmp
+ 1367  cat lammps_conda.sh
+ 1368  conda install conda-forge::lammps
+ 1369  conda remove lmp_env
+ 1370  conda remove -n lmp_env --all
+ 1371  conda activate base
+ 1372  conda remove -n lmp_env --all
+ 1373  mc
+ 1374  ./lammps_conda.sh 
+ 1375  conda activate lmp_env
+ 1376  conda install conda-forge::lammps
+ 1377  which lmp
+ 1378  /home/sslinux/miniconda3/envs/lmp_env/bin/lmp
+ 1379  python --version
+ 1380  jupyter --version
+ 1381  conda create --name jiht_sem
+ 1382  conda activate jiht_sem
+ 1383  python
+ 1384  conda install python
+ 1385  conda install jupyter
+ 1386  pip install numpy
+ 1387  pip install scipy
+ 1388  pip install matplotlib
+ 1389  ssh -o ServerAliveInterval=180 s.samarin@10.30.16.167
+ 1390  conda env list
+ 1391  which lmp
+ 1392  ssh -o ServerAliveInterval=180 s.samarin@10.30.16.167
+ 1393  history
+ 1394  ssh -o ServerAliveInterval=180 s.samarin@10.30.16.167
+ 1395  conda env list
+ 1396  conda create --name 05_03_jiht_sem --clone jiht_sem
+ 1397  conda activate 05_03_jiht_sem
+ 1398  conda install --channel conda-forge pymatgen
+ 1399  conda list
+ 1400  python -version
+ 1401  python --version
+ 1402  conda install --channel conda-forge pymatgen
+ 1403  pip install pymatgen
+ 1404  conda install python=3.7
+ 1405  pip install pymatgen
+ 1406  pip install maml
+ 1407  conda install -c conda-forge/label/cf202003 lammps
+ 1408  python --version
+ 1409  conda list
+ 1410  pip install pymatgen
+ 1411  which(lmp_exe)
+ 1412  which('lmp_exe')
+ 1413  which
+ 1414  which lmp_serial
+ 1415  lmp_serial
+ 1416  python --version
+ 1417  conda list
+ 1418  conda env list
+ 1419  conda cativate 05_03_jiht_sem 
+ 1420  conda cativate 05_03_jiht_sem
+ 1421  conda activate 05_03_jiht_sem
+ 1422  lmp_serial
+ 1423  ssh -o ServerAliveInterval=180 s.samarin@10.30.16.167
+ 1424  netstat -tulpn
+ 1425  ssh -o ServerAliveInterval=180 s.samarin@10.30.16.167
+ 1426  netstat -tulpn
+ 1427  ssh -o ServerAliveInterval=180 s.samarin@10.30.16.167
+ 1428  pkill --help
+ 1429  ssh -o ServerAliveInterval=180 s.samarin@10.30.16.167
+ 1430  conda env list
+ 1431  history | grep ssh
+ 1432  ssh -i /home/sslinux/.ssh/mmlect studhedp01@calc.cod.phystech.edu
+ 1433  conda activate sem_05_03_24
+ 1434  conda env list
+ 1435  conda activate 05_03_jiht_sem
+ 1436  pip list
+ 1437  which python
+ 1438  which lmp_exe
+ 1439  which lmp
+ 1440  lmp
+ 1441  which lmp
+ 1442  lmp
+ 1443  ./lmp
+ 1444  chmod 755
+ 1445  chmod 755 lmp
+ 1446  ./lmp
+ 1447  tar -xzf lammps-stable.tar.gz 
+ 1448  cd lammps-23Jun2022/
+ 1449  mkdir build
+ 1450  cd build
+ 1451  cmake
+ 1452  sudo apt install cmake
+ 1453  cmake
+ 1454  sudo apt install cmake
+ 1455  apt-get update
+ 1456  sudo apt-get update
+ 1457  sudo apt install cmake
+ 1458  ls
+ 1459  cmake -C ../cmake/presets/basic.cmake -D PKG_ML-SNAP=on -D PKG_MANYBODY=on -D PKG_KSPACE=on -D PKG_MOLECUL
+ 1460  E=on -D PKG_COLVARS=on ../cmake
+ 1461  cmake -C ../cmake/presets/basic.cmake -D PKG_ML-SNAP=on -D PKG_MANYBODY=on -D PKG_KSPACE=on -D PKG_MOLECULE=on -D PKG_COLVARS=on ../cmake
+ 1462  history
+ 1463  ./lmp
+ 1464  ls
+ 1465  cmake build
+ 1466  cd ..
+ 1467  cmake build
+ 1468  cmake --build
+ 1469  cmake --build . -j4
+ 1470  cd build/
+ 1471  cmake --build . -j4
+ 1472  ./lmp 
+ 1473  ls
+ 1474  pwd
+ 1475  export PATH="/home/sslinux/ML in material science/Alexander_seminars/lammps-23Jun2022/build/:$PATH"
+ 1476  mw lmp lmp_serial
+ 1477  mv lmp lmp_serial
+ 1478  pwd
+ 1479  lmp_serial
+ 1480  pwd
+ 1481  ls
+ 1482  cd Alexander_seminars/
+ 1483  cd lammps-23Jun2022/
+ 1484  cd build/
+ 1485  pwd
+ 1486  export PATH="/home/sslinux/ML_in_material_science/Alexander_seminars/lammps-23Jun2022/build/:$PATH"
+ 1487  lmp_serial
+ 1488  cd ...
+ 1489  cd ..
+ 1490  lmp_serial
+ 1491  ssh -i /home/sslinux/.ssh/mmlect studhedp01@calc.cod.phystech.edu
+ 1492  ssh -o ServerAliveInterval=180 s.samarin@10.30.16.167
+ 1493  which lmp_serial
+ 1494  ssh -o ServerAliveInterval=180 s.samarin@10.30.16.167
+ 1495  ssh samarin.ss@calc.cod.phystech.edu
+ 1496  ssh -o ServerAliveInterval=180 s.samarin@10.30.16.167
+ 1497  ssh samarin.ss@calc.cod.phystech.edu
+ 1498  history | grep ssh
+ 1499  ssh -o ServerAliveInterval=180 s.samarin@10.30.16.167
+ 1500  ssh samarin.ss@calc.cod.phystech.edu
+ 1501  ssh -o ServerAliveInterval=180 s.samarin@10.30.16.167
+ 1502  htop
+ 1503  ssh -o ServerAliveInterval=180 s.samarin@10.30.16.167
+ 1504  ssh samarin.ss@calc.cod.phystech.edu
+ 1505  history | grep ssh
+ 1506  ssh samarin.ss@calc.cod.phystech.edu
+ 1507  ды
+ 1508  ls
+ 1509  tar xvf orca_5_0_4_linux_x86-64_shared_openmpi411.tar.xz
+ 1510  export PATH=$pwd:$PATH
+ 1511  export LD_LIBRARY_PATH=$pwd:$LD_LIBRARY_PATH
+ 1512  which orca
+ 1513  pwd
+ 1514  export PATH=$PWD:$PATH
+ 1515  export LD_LIBRARY_PATH=$PWD:$LD_LIBRARY_PATH
+ 1516  which orca
+ 1517  echo -e $PATH
+ 1518  mc
+ 1519  export PATH=$pwd:$PATH
+ 1520  export LD_LIBRARY_PATH=$PWD:$LD_LIBRARY_PATH
+ 1521  export PATH=$PWD:$PATH
+ 1522  echo -e PATH
+ 1523  echo -e $PATH
+ 1524  which orca
+ 1525  orca h2_r1.0.inp > h2_r1.0.out
+ 1526  which orca
+ 1527  vim run.sh
+ 1528  ./ run.sh 
+ 1529  ./run.sh 
+ 1530  chmod 755 run.sh 
+ 1531  ./run.sh 
+ 1532  ./grep.sh 
+ 1533  chmod 755 grep.sh 
+ 1534  ./grep.sh 
+ 1535  gnuplot
+ 1536  ./grep.sh 
+ 1537  ./run.sh 
+ 1538  ./grep.sh 
+ 1539  ./run.sh 
+ 1540  ./grep.sh 
+ 1541  ssh samarin.ss@calc.cod.phystech.edu
+ 1542  bash
+ 1543  ssh samarin.ss@calc.cod.phystech.edu
+ 1544  ssh samarin@93.175.19.94
+ 1545  history | grep ssh -i
+ 1546  ssh -i C:/Users/Serge/.ssh/id_rsa samarin@93.175.19.94
+ 1547  ssh samarin.ss@calc.cod.phystech.edu
+ 1548  ssh studhedp21@calc.cod.phystech.edu
+ 1549  ssh samarin.ss@calc.cod.phystech.edu
+ 1550  vH=*MA+<8bW$R-QX
+ 1551  ssh samarin.ss@calc.cod.phystech.edu
+ 1552  ssh studhedp21@calc.cod.phystech.edu
+ 1553  scp studhedp01@calc.cod.phystech.edu:/home/common/studhedp21/deepmd_sem/dataFeVC/0_Fe0.823V0.070C0.106/POSCAR /home/sslinux/
+ 1554  scp studhedp21@calc.cod.phystech.edu:/home/common/studhedp21/deepmd_sem/dataFeVC/0_Fe0.823V0.070C0.106/POSCAR /home/sslinux/
+ 1555  scp studhedp21@calc.cod.phystech.edu:/home/common/studhedp21/deepmd_sem/dataFeVC/0_Fe0.823V0.070C0.106/POSCAR.lmp /home/sslinux/
+ 1556  ssh samarin.ss@calc.cod.phystech.edu
+ 1557  ssh studhedp21@calc.cod.phystech.edu
+ 1558  which orca
+ 1559  echo $PATH
+ 1560  echo $PATH | grep orca
+ 1561  history 
+ 1562  history > history.txt

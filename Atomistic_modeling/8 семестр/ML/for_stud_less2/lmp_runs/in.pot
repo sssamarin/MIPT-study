@@ -1,0 +1,3 @@
+pair_style      eam/alloy
+pair_coeff      * * Lead.EAM.lammps Pb
+mass            1 207.2

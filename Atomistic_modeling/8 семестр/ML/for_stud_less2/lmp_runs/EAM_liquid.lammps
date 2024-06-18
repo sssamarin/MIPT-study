@@ -1,0 +1,41 @@
+variable        TEMP equal 1400.0
+
+clear
+units           metal
+dimension       3
+boundary        p p p
+atom_style      atomic
+
+lattice         sc 5.1
+region          sim_box block 0 5 0 5 0 5
+create_box      1 sim_box
+create_atoms    1 box
+
+include         in.pot
+
+velocity        all create 2000.0 1234567 mom yes rot yes
+
+timestep        0.001
+comm_modify     mode single cutoff 12.0 vel yes
+
+# Run molecular dynamics simulation
+# dump            1 all xyz 1000 dump.xyz
+fix             NPT all npt temp ${TEMP} ${TEMP} $(2000*dt) iso 50.0 50.0 $(2000*dt)
+thermo          1000
+run             100000
+
+# Output trajectory for RDF calculation
+variable        pe equal pe
+variable        step equal step
+
+dump            f_dump all custom 10000 Lead_liquid_data/dump.Lead.* x y z fx fy fz
+dump            atom_dump all atom 50000 dump.atom
+fix             print_pe all print 10000 "${step} ${pe}" append Lead_liquid_data/dump.Lead.energies
+
+unfix           NPT
+fix             NVT all nvt temp ${TEMP} ${TEMP} $(2000*dt) 
+reset_timestep  0
+# Compute RDF using LAMMPS compute rdf command
+compute         rdf all rdf 500 1 1 cutoff 10.0
+fix             1 all ave/time 10 5000 50000 c_rdf[*] file Lead_liquid_data/Lead_${TEMP}K.rdf mode vector
+run             50000
